@@ -1,7 +1,10 @@
+
 #include "Dino.h"
 #include <Servo.h>
 #include <LiquidCrystal.h>
 #include <SoftwareSerial.h>
+#include <Adafruit_NeoPixel.h>
+
 Dino dino;
 
 // Use the native serial port on the Arduino Due
